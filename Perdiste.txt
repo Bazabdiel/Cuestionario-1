@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perdiste</title>
+    <style>
+        body {
+            background-image: url('URL_DE_TU_IMAGEN_AQUI');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        h1 {
+            font-size: 3rem;
+        }
+        .button {
+            font-size: 1.2rem;
+            padding: 10px 20px;
+            margin: 10px;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            background-color: rgba(0, 0, 0, 0.6);
+        }
+        .button:hover {
+            background-color: rgba(0, 0, 0, 0.8);
+        }
+    </style>
+</head>
+<body>
+    <h1>¡Perdiste!</h1>
+    <a href="file:///C:/Users/HP/Downloads/abdi/codigos%20html/projecto%20ia/para%20publicar/Pregunta%201.html" class="button">Persistir</a>
+    <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="button">Rendirse</a>
+</body>
+</html>

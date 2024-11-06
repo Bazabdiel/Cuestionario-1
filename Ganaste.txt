@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página con Fondo y Imagen</title>
+    <style>
+
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh; 
+            background-image: url('yey.png'); /* Aquí puedes agregar una URL si deseas un fondo por defecto */
+            background-size: cover; /* Asegura que el fondo cubra toda la pantalla */
+            display: flex;
+            justify-content: center; /* Centra horizontalmente */
+            align-items: center; /* Centra verticalmente */
+        }
+
+        /* Estilo para la imagen */
+        img {
+            max-width: 90%; /* Limita el ancho de la imagen al 90% del contenedor */
+            max-height: 90%; /* Limita la altura de la imagen al 90% del contenedor */
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Imagen que se mostrará en la página -->
+    <img src="yey.png" alt="Descripción de la imagen">
+
+</body>
+</html>

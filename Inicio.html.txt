@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cuestionario</title>
+    <style>
+      
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-image: url('forest.jpg');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            text-align: center;
+        }
+
+       
+        .texto-centrado {
+            background: rgba(0, 0, 0, 0.5); 
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+
+       
+        .enlaces {
+            display: flex;
+            gap: 20px;
+        }
+
+        .enlaces a {
+            color: #000f71; 
+            text-decoration: none;
+            font-weight: bold;
+	    font-size: 60px;
+        }
+
+        .enlaces a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="texto-centrado">
+        <h1>Welcome</h1>
+        <h6>Espero hayas estudiado, pues aqui viene un cuestionario sobre las inteligencias artificiales, y ten mucho cuidado, que un solo error te obligara a repetir todo ¿podras llegar al final?</h6>
+    </div>
+
+    <div class="enlaces">
+        <a href="file:///C:/Users/HP/Downloads/abdi/codigos%20html/projecto%20ia/para%20publicar/Pregunta%201.html" target="_blank">Enlace 1</a>
+</div>
+
+</body>
+</html>
